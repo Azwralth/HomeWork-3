@@ -54,7 +54,12 @@ final class ViewController: UIViewController {
     
     private func setupSlider() {
         redSlider.minimumTrackTintColor = .red
+        redSlider.maximumTrackTintColor = .white
+        
         greenSlider.minimumTrackTintColor = .green
+        greenSlider.maximumTrackTintColor = .white
+        
         blueSlider.minimumTrackTintColor = .blue
+        blueSlider.maximumTrackTintColor = .white
     }
 }
